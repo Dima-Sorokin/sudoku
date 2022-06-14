@@ -1,0 +1,108 @@
+body {
+    display: block;
+    margin: 0%;
+    text-align: center;
+
+    
+
+}
+
+.headBanner {
+    text-align: center;
+
+}
+
+.logIn {
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 300px;
+    border: 1px black solid;
+    text-align: center;
+    padding: 5px;
+}
+
+.logIn input {
+    margin: auto;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dificulty {
+    display: none;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 300px;
+    border: 1px black solid;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sudokuFrame {
+    
+    padding: 0%;
+    margin: auto;
+    width: fit-content;
+    display: none;
+}
+
+table, th {
+    border-collapse: collapse;
+    padding: 0%;
+    margin: 0%;
+}
+
+table {
+   
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+td {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    margin: 0%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.slot:hover {
+    background-color: rgb(170, 170, 170);
+    box-shadow: 1px 1px 1px black inset;
+    cursor: pointer;
+}
+
+.movesSelector {
+    padding: 0%;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.moveNum {
+    width: fit-content;
+    height: auto;
+    font-size: 25px;
+}
+
+.controler {
+    margin: auto;
+    margin-bottom: 5%;
+
+    text-align: center;
+    padding: 10px;
+}
